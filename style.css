@@ -1,0 +1,76 @@
+/* Reset some default styles */
+body, h1, h2, h3, p, fieldset {
+    margin: 10px;
+    padding: 0;
+}
+
+/* Apply a background color and set text color for the body */
+body {
+    background-color: #f4f4f4;
+    color: white;
+    font-family: 'Arial', sans-serif;
+    text-align: center; /* Center-align text content */
+}
+
+/* Style the header */
+header, p {
+    background-color: white;
+    color: black;
+    padding: 10px;
+    text-align: left;
+    font-family: 'cursive-font', cursive;
+    display: flex;
+    justify-content: space-between;
+}
+
+header img {
+    max-width: 100%;
+}
+
+/* Style the social media icons */
+header div img {
+    margin-right: 10px;
+}
+
+/* Style the main content area */
+main {
+    max-width: 800px;
+    margin: 20px auto; /* Center the main content horizontally */
+    padding: 20px;
+    background-color: #fff;
+    text-align: left; /* Reset text alignment for the main content */
+}
+
+/* Style headings and paragraphs */
+h2, h3, p {
+    color: #2c3e50;
+}
+
+/* Style images within the main section */
+main img {
+    max-width: 100%;
+    height: auto;
+    margin-bottom: 15px;
+}
+
+/* Style the "Share Recipe" button */
+button {
+    color: light brown;
+    padding: 10px;
+    border: none;
+    cursor: pointer;
+    font-size: 16px;
+}
+
+button:hover {
+    background-color: brown;
+}
+
+/* Style the footer */
+footer {
+    color: grey;
+    text-align: center;
+    padding: 10px;
+    bottom: 0;
+    width: 100%;
+}
